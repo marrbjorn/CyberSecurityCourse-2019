@@ -1,18 +1,17 @@
 body.hidden {background-color:#292538;}
-h1 {color:white; text-align:center; font-size:350%}
-h2 {font-size:388%}
-#ul {color:white; text-align:center; font-size:110%}
-#ol {color:white; text-align:center; font-size:80%}
-#welcome {font-family:verdana; text-align:center;}
-#map {font-family:verdana; text-align:center; font-size:220%}
-#mapli {font-family:verdana; font-size:60%}
-#about {font-size:115%; text-align:center;}
-.youtube {text-align:center; font-size:150%}
-a:link {color:white; background-color:transparent; text-decoration:none}
-a:visited {color:pink; background-color:transparent; text-decoration:none}
-a:hover {color:red; background-color:transparent; text-decoration:underline}
-a:active {color:yellow; background-color:transparent; text-decoration:underline}
+h1 {color:white; text-align:center; font-size:350%; text-shadow:-2px 0 #114855, 0 2px #0f3d4d, 2px 0 #26a1c0, 0 -2px #114855;}
 textarea {width:100%; height:400px; padding:22px 33px; box-sizing:border-box; border:2px solid #ccc; border-radius:15px; background-color:#f8f8f8; font-size:15px; resize:none;}
+a:link {color:white; background-color:transparent; text-decoration:none;}
+a:visited {color:pink; background-color:transparent; text-decoration:none;}
+a:hover {color:red; background-color:transparent; text-decoration:underline;}
+a:active {color:yellow; background-color:transparent; text-decoration:underline;}
+#ul {color:white; text-align:center; font-size:110%;}
+#ol {color:white; text-align:center; font-size:80%;}
+#welcome {font-family:verdana;}
+#map {font-family:verdana; text-align:center; font-size:220%;}
+#mapli {font-family:verdana; font-size:60%;}
+#about {font-size:115%; text-align:center;}
+.youtube {text-align:center; font-size:150%; text-shadow:2px 2px 2px 2px white, 4px 4px #131a20;}
 
 /*flask*/
 .flask {height:405px; width:368px; position:absolute; bottom:0;}

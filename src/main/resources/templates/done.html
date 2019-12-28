@@ -11,7 +11,7 @@
             li a:hover {background-color:#111111}
         </style>
     </head>
-    <body>
+    <body data-background-original-idea="https://github.com/LeaVerou/css3patterns" style="background-color:white; background-image:linear-gradient(90deg, rgba(139, 60, 60,0.6) 50%, transparent 55%),linear-gradient(rgba(60, 119, 139,0.6) 50%, transparent 55%); background-size:50px 50px;">
 
         <h2 class="youtube">Good! One more listener!</h2>
         
@@ -19,8 +19,8 @@
                 <li><a th:href="@{form}">Add more listeners</a></li>
                 <li><a th:href="@{login}">Or re-login</a></li>  
                 <div sec:authorize="hasAuthority('ADMIN')"><li><a th:href="@{fylkr}">Do you remember fylkr's song "do The Trick" from album "trick"?</a></li></div>
-                  <!--     ^ is not properly configured and I did not add dependencies for project.
-                      Thus, "should be" visible only for "ADMIN"-authority... but visible for all.
+                  <!--     ^ is not properly configured and I did not add required dependencies for project.
+                      Thus, "should be" visible only for 'ADMIN'-authority but visible for all.
                     For prevent this - we are able do not use these tricks; or use it properly (accordingly to documentation).
                   -->
             </ul>

@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" th:href="@{/css/style.css}" type="text/css" media="screen"/>
     </head>
-    <body style="background-color:powderblue;">
+    <body data-background-original-idea="https://github.com/LeaVerou/css3patterns" style="background-color:#afd7e4; background-image:linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%); background-size:13px, 29px, 37px, 53px;">
 
         <h1 id="welcome">Welcome!</h1>
         <hr />
-        <p id="about"><b><strong id="who" th:text="${who}">Who</strong>, you are already part of <q><u><abbr title="Marrbjorn Folk Party">MFP</abbr></u></q>.
-         And if you want to invite your friends - so, you are able to get access for them! Just add one more listener from you! </b></p>
+        <p id="about"><strong id="who" th:text="${who}">Who</strong>, you are already part of <q><u><abbr title="Marrbjorn Folk Party">MFP</abbr></u></q>.
+         And if you want to invite your friends - so, you are able to get access for them! Just add one more listener from you!</p>
         
         <form action="#" th:action="@{/form}" method="POST">
             <p><label for="name">Name</label>: <input type="text" name="name" id="name" required="required"/></p>
@@ -19,7 +19,6 @@
             <p><input type="submit" value="Go!" /></p>
         </form>
         
-                
         <h2 id="map">Also you can use the Map of website!</h2>
         <hr />
             <ul id="mapli">
