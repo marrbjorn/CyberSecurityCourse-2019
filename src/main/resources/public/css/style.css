@@ -11,7 +11,7 @@ a:active {color:yellow; background-color:transparent; text-decoration:underline;
 #map {font-family:verdana; text-align:center; font-size:220%;}
 #mapli {font-family:verdana; font-size:60%;}
 #about {font-size:115%; text-align:center;}
-.youtube {text-align:center; font-size:150%;}
+.youtube {text-align:center; font-size:150%; text-shadow:2px 2px 2px 2px white, 4px 4px #131a20;}
 
 /*flask*/
 .flask {height:405px; width:368px; position:absolute; bottom:0;}
